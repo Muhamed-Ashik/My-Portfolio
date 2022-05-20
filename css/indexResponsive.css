@@ -1,0 +1,36 @@
+/* tablet */
+@media (max-width: 768px) {
+    .intro .intro-heading span:last-child {
+        font-size: 3em;
+    }
+
+    #footer-section .footer-details .copyrights{
+        font-size: 0.9em;
+    }
+}
+
+
+/* mobile large */
+
+@media (max-width: 425px) {
+
+    .intro .intro-heading span{
+        font-size: 3em;
+    }
+
+    .intro .intro-heading span:last-child{
+        font-size: 2.3em;
+    }
+    .intro .intro-btn button{
+        width: 40% !important;
+    }
+
+   #footer-section .footer-details .header-links a{
+       padding: 0 1.4%;
+   }
+
+   #footer-section .footer-details .copyrights{
+       font-size: 0.9em;
+   }
+
+}

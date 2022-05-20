@@ -1,0 +1,370 @@
+/* varialle global css file */
+@import url('../global/variable.css');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------------------------------  HEADER SECTION EDITINGS ------------------------------------------ */
+
+#header-section{
+    background: url('../images/index-main-banner.jpg'); 
+    width: 100% !important;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+}
+
+#header-section .navbar{
+    background: transparent !important;
+    
+}
+
+#header-section .navbar a{
+    font-weight: bold;
+    color: var(--font-custom-color);
+    font-size: 1em;
+}
+
+#header-section .navbar a:hover{
+    border-bottom: 2px solid var(--font-custom-color);;
+    
+}
+
+#header-section .navbar .navbar-brand{
+    text-transform: capitalize;
+    font-size: 1.5em;
+}
+
+
+/* ----- intro editings ----- */
+
+.intro{
+    height: 50rem !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items:center;
+}
+
+.intro .intro-details{
+    margin-top: -30%;
+}
+
+
+.intro .intro-heading span{
+    display: block;
+    font-size: 4em;
+    color: var(--font-custom-color);
+    font-weight: bold;
+    
+}
+
+.intro .intro-heading span:last-child{
+    font-size: 3.5em;
+}
+
+.intro .intro-para{
+    color: var(--font-custom-color);
+    font-size: 1.1em;
+    margin: 1.5em 0;
+}
+
+.intro .intro-btn button{
+    width: 25% !important;
+    background: black;
+    color:var(--font-custom-color);
+    border: 1px solid gray;
+    font-weight: bold;
+}
+
+.intro .intro-btn button:hover{
+    /* font-weight: bold; */
+    border-bottom: 2px solid var(--font-custom-color);
+    color: gray;
+}
+
+/* ---- intro editings ---- */
+
+/* --------------------------------  MAIN SECTION EDITINGS ------------------------------------------ */
+
+/* ----- / about us editings ---- */
+
+#main-section #about-us{
+    width: 100%;
+    margin: 3rem 0;
+}
+
+#main-section .about-us-title{
+    text-align: center;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#main-section .about-us-title span{
+    font-size: 3em;
+    font-weight: bold;
+    text-transform:uppercase;
+
+}
+
+#main-section #about-us .about-us-img{
+    text-align:center;
+}
+
+#main-section #about-us .about-us-img img{
+    border-radius: 50%;
+}
+
+#main-section #about-us .about-us-details{
+    text-align: left;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     height: 23rem;
+}
+
+/* ----- / about us editings ---- */
+
+
+/* ----- services editings ----- */
+
+#main-section #services{
+    width: 100%;
+    background-color: currentColor;
+    padding-bottom: 5rem;
+}
+
+#main-section .service-title{
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+#main-section .service-title span{
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--font-custom-color);
+}
+
+#main-section .services-details .card{
+    width: 100%;
+    margin-left: 50%;
+    transform: translateX(-50%);     
+    text-align: center; 
+    margin-top: 0.5rem; 
+    
+}
+
+#main-section .services-details .card h3{
+    font-weight: bold;
+}
+
+#main-section .services-details .card img{
+    width: 100%; 
+}
+
+#main-section .services-details .card img:last-child{
+    width: 50% !important;
+}
+
+#main-section .services-details .card .place-holder-btn{
+    background: black;
+    color: var(--font-custom-color);
+    border: 1px solid gray;
+    font-weight: bold;
+}
+
+#main-section .services-details .card .place-holder-btn:hover{
+    color: gray;
+
+}
+
+/* ----- / services editings ----- */
+
+/* --technologies editings-- */
+
+#technologies .technologies-title{
+    font-size: var(--main-heading-font-size);
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#technologies .technologies-used{
+    padding: 1em 0;
+}
+
+#technologies .technologies-used h3{
+    font-weight: bold;
+}
+
+#technologies .technologies-used button{
+    margin: 1em 0;
+    background: black !important;
+    color: var(--font-custom-color);
+    border: 1px solid gray;
+    font-weight: bold;
+}
+
+#technologies .technologies-used button:hover{
+    color: gray;
+}
+
+/* -- /technologies editins --- */
+
+/* --- gallery editings -- */
+
+#gallery{
+    background: currentColor;
+}
+
+#gallery .gallery-items{
+    padding: 0.5em 0;
+}
+
+#gallery .gallery-item {
+    width: 100%;
+    padding: 1rem 0;
+    
+    margin-top: 0.5rem;
+    
+}
+
+#gallery .gallery-title{
+    height: 10rem;
+    font-size: var(--main-heading-font-size);
+    font-weight: bold;
+    text-transform: uppercase;
+     display: flex;
+    flex-direction:row;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    color: var(--font-custom-color)
+}
+
+
+
+#gallery .gallery-items{
+    width: 100%;
+    color: var(--font-custom-color)
+    
+}
+
+
+#gallery .gallery-items button{
+    background: black;
+    color: var(--font-custom-color);
+    border: 1px solid gray;
+    font-weight: bold;
+}
+
+#gallery .gallery-items button:hover{
+    color: gray;
+}
+
+/* --- / gallery editings -- */
+
+/* --- contact editings -- */
+
+#contact .contact-title{
+    height: 10rem;
+    font-size: var(--main-heading-font-size);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact .contact-details .details .card{
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+#contact .contact-details .details .card .card-body{
+    text-align: left;
+    display: grid;
+    place-content: center;
+}
+
+#contact .contact-details .details .card .card-body a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact .contact-details .details .card .card-body a:hover{
+    font-weight: bold;
+}
+
+/* --- / contact editings -- */
+
+/* --------------------------------  FOOTER SECTION EDITINGS ------------------------------------------ */
+
+/*  --- footer-editings --- */
+
+#footer-section{
+    background: currentColor;
+}
+
+#footer-section .footer-details{
+    margin-top: 5%;
+    padding: 2% 0;
+}
+
+#footer-section .footer-details .header-links {
+    text-align: center;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-section .footer-details .header-links a{
+    color: var(--font-custom-color);
+    text-decoration: none;
+    padding: 0 1.5%;
+    font-weight: bold;
+}
+
+#footer-section .footer-details .header-links a:hover{
+    border-bottom: 2px solid var(--font-custom-color);
+}
+
+#footer-section .footer-details .copyrights{
+    color: var(--font-custom-color);
+    text-align: center;
+    font-weight: bold;
+}
+
+/*  --- / footer-editings --- */
+
+
+
+
+
